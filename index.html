@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency-Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="main">
+            <h2>Currency Converter</h2>
+            <form>
+                <div class="container">
+                    <div class="inputField">
+                        <label for="amount">Enter Amount</label>
+                        <input type="text" name="text" value="1" id="amount">
+
+                    </div>
+                    <div class="fromTo">
+                        <div class="span">
+                            <span>
+                                From
+
+                            </span>
+                            <span id="f">
+                                To
+                            </span>
+                        </div>
+
+
+
+                        <figure>
+                            <div class="from">
+                                <img src="https://flagsapi.com/NA/flat/64.png">
+                                <select name="from" id="from">
+
+                                </select>
+                            </div>
+                            <img src="exchange.svg" alt="Exchanging..">
+
+
+                            <div class="to">
+
+                                <img src="https://flagsapi.com/IN/flat/64.png">
+                                <select name="to" id="to">
+
+                                </select>
+                            </div>
+
+                        </figure>
+
+                    </div>
+
+
+                    <p style="font-weight: bold;" id="mypara">1 USD=64.333 AUD</p>
+                    <div class="btn">
+                        <button>
+                            Get Exchange Rate
+                        </button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+    <script src="countryCode.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
